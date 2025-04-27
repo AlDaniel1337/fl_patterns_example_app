@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:patterns_examples_app/presentation/pages/home/components/menu.dart';
 
 class HomePage extends StatelessWidget {
 
@@ -11,13 +12,14 @@ class HomePage extends StatelessWidget {
     return Scaffold(
    
       appBar: AppBar(
-        title: const Text('HomePage'),
+        title: const Text('Patrondes de diseño'),
         centerTitle: true,
       ),
    
       body: const Center(
-        child: Text('HomePage'),
+        child: Menu()
       ),
     );
   }
 }
+

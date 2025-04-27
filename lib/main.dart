@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       // Rutas
-      initialRoute: Routes.home,
-      getPages: Routes.getRoutes(),
+      initialRoute: Navigation.home,
+      getPages: Navigation.getRoutes(),
       navigatorKey: Get.key,
 
       theme: ThemeData(

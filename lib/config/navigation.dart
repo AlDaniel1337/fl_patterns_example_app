@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:patterns_examples_app/presentation/pages/pages.dart';
 
 /// Navegacion
-class Routes{
+class Navigation{
 
   // Ruta principal
   static const String home = HomePage.route;
@@ -12,7 +12,8 @@ class Routes{
   /// Listado con las rutas de la app
   static List<GetPage> getRoutes(){    
     List<GetPage> pages = [
-      GetPage(name: HomePage.route, page:() => const HomePage()),
+      GetPage(name: HomePage.route,      page:() => const HomePage()),
+      GetPage(name: SingletonPage.route, page:() => const SingletonPage()),
     ];
     
     return pages;
