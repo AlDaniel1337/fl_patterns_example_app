@@ -14,6 +14,7 @@ class Navigation{
     List<GetPage> pages = [
       GetPage(name: HomePage.route,      page:() => const HomePage()),
       GetPage(name: SingletonPage.route, page:() => const SingletonPage()),
+      GetPage(name: FactoryPage.route,   page:() => const FactoryPage()),
     ];
     
     return pages;

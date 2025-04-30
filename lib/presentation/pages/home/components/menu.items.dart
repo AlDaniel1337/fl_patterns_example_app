@@ -12,7 +12,7 @@ class MenuItems{
     ),
     
     MenuOption( 
-      page: "",
+      page: FactoryPage.route,
       title: "Factory",
       description: "Crear objetos sin especificarla clase exacta"
     ),

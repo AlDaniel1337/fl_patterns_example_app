@@ -17,8 +17,8 @@ class SingletonPage extends StatelessWidget {
     return Scaffold(
    
       appBar: AppBar(
-         title: const Text('Singleton'),
-         centerTitle: true,
+        title: const Text('Singleton'),
+        centerTitle: true,
       ),
    
       body: Center(
