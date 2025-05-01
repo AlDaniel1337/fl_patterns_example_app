@@ -18,7 +18,7 @@ class MenuItems{
     ),
 
     MenuOption( 
-      page: "",
+      page: BuilderPage.route,
       title: "Builder",
       description: "Encapsular lógica reusable de construcción de objetos complejos"
     ),
